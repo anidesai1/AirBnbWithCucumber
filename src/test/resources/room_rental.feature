@@ -2,6 +2,7 @@ Feature: Room Rental
   This application is to simulate renting a room from an AirBnb.
   It takes a simple user with a username, a room, and then create a rental that uses both objects.
 
+  @AmazingTest
   Scenario Outline: Rent a room
     Given I am an existing user with the name <Name>
     When I rent a <Room> in this <Season> for <Days>
